@@ -1,4 +1,4 @@
-const kerasModelLoader = require('../dist/index.js')
+const kerasModelLoader = require('../dist/index.js').default
 const tf = require('@tensorflow/tfjs-node')
 
 
