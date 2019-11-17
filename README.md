@@ -16,10 +16,10 @@ const model = new kerasModelLoader({ model: './example/model.h5' })
 
 // spawn model
 model.open()
-const resizedTensor = tf.zeros([1, 224, 224, 3])
+const tensorForPrediction = tf.zeros([1, 224, 224, 3])
 
 // predict
-model.predict(resizedTensor).then((res) => {
+model.predict(tensorForPrediction).then((res) => {
 
   res.print()
 
