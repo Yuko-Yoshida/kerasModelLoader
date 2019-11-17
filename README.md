@@ -1,6 +1,10 @@
 # kerasModelLoader
 Load keras model in Node.js
 
+## requirements
+* python3
+* tensorflow
+
 ## example
 ```javascript
 const kerasModelLoader = require('../dist/index.js').default
