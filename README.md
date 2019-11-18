@@ -7,7 +7,7 @@ Load keras model in Node.js
 
 ## example
 ```javascript
-const kerasModelLoader = require('../dist/index.js').default
+const kerasModelLoader = require('kerasModelLoader').default
 const tf = require('@tensorflow/tfjs-node')
 
 
